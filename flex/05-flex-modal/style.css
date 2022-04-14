@@ -21,35 +21,6 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 15px;
-}
-
-.header {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.left {
-  padding-right: 5px;
-}
-
-.top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 8px;
-}
-
-.middle {
-  display: flex;
-  flex-direction: column;
-}
-
-.bottom {
-  gap: 8px;
 }
 
 .icon {
@@ -63,8 +34,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px;
-  flex-shrink: 0;
 }
 
 .close-button {
@@ -78,11 +47,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-}
-
-.buttons {
-  padding-top: 10px;
 }
 
 button {
@@ -100,4 +64,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
